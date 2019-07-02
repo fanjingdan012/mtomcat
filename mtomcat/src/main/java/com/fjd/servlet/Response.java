@@ -30,7 +30,7 @@ public class Response {
             FileUtil.writeFile(file, outputStream);
 
         } else {
-write(HttpUtil.getHttpResponseContext404());
+            write(HttpUtil.getHttpResponseContext404());
         }
     }
 }
